@@ -7,6 +7,8 @@ __pycache__/
 *.so
 
 2requirements.txt
+2Dockerfile
+2docker-compose.yml
 
 # Distribution / packaging
 .Python
@@ -129,3 +131,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+.vscode/settings.json
