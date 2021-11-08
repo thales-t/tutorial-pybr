@@ -4,7 +4,7 @@ from http import HTTPStatus
 from uuid import UUID
 from api_pedidos.excecao import PedidoNaoEncontradoError, FalhaDeComunicacaoError
 from api_pedidos.esquema import Item
-from magalu_api import recuperar_itens_por_pedido
+from api_pedidos.magalu_api import recuperar_itens_por_pedido
 
 app = FastAPI()
 
