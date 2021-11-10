@@ -12,5 +12,6 @@ class Item(BaseModel):
     reference: str
     quantity: int
 
+
 class ErrorResponse(BaseModel):
     message: str
