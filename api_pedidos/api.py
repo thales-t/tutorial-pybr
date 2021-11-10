@@ -1,5 +1,4 @@
 from http import HTTPStatus
-#from uuid import UUID
 
 from fastapi import Depends, FastAPI, Request
 from fastapi.responses import JSONResponse
@@ -10,6 +9,10 @@ from api_pedidos.excecao import (
     PedidoNaoEncontradoError,
 )
 from api_pedidos.magalu_api import recuperar_itens_por_pedido
+
+#from uuid import UUID
+
+
 
 app = FastAPI()
 
