@@ -7,8 +7,8 @@ from api_pedidos.excecao import PedidoNaoEncontradoError, FalhaDeComunicacaoErro
 import httpx
 
 # tenant e apikey fixos somente para demonstrações
-APIKEY = os.environ.get("APIKEY", "coloque aqui sua apikey")
-TENANT_ID = os.environ.get("TENANT_ID", "5734143a-595d-405d-9c97-6c198537108f")
+APIKEY = os.environ.get("APIKEY", "5734143a-595d-405d-9c97-6c198537108f")
+TENANT_ID = os.environ.get("TENANT_ID", "21fea73c-e244-497a-8540-be0d3c583596")
 MAGALU_API_URL = "http://localhost:8080"
 MAESTRO_SERVICE_URL = f"{MAGALU_API_URL}/maestro/v1"
 
