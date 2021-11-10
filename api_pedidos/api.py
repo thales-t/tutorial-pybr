@@ -1,5 +1,5 @@
 from http import HTTPStatus
-from uuid import UUID
+#from uuid import UUID
 
 from fastapi import Depends, FastAPI, Request
 from fastapi.responses import JSONResponse
